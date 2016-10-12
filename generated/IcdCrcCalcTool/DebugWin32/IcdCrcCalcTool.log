@@ -1,0 +1,22 @@
+﻿生成启动时间为 2015/7/14 8:37:02。
+     1>项目“E:\RooF_Code\IcdCrcCalcTool\IcdCrcCalcTool\IcdCrcCalcTool.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“E:\RooF_Code\IcdCrcCalcTool\Debug\”。
+       InitializeBuildStatus:
+         正在创建“E:\RooF_Code\IcdCrcCalcTool\generated\IcdCrcCalcTool\DebugWin32\IcdCrcCalcTool.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\tinyxml2 /I..\..\..\sqlite /I"..\..\..\protobuf-2.5.0\src" /I..\..\..\charconv /I..\..\..\boost_1_55_0_HeadersOnly /I..\..\..\zlibex2 /I"..\..\..\mysql-dev-5.6\include" /I"..\..\..\libcurl-7.26\include" /I..\..\..\slxcommon /I"..\..\..\rapidxml-1.13" /I"..\..\..\libevent-2.0.21-stable\include" /I..\..\..\ExpatDll\expat_core /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D WINVER=0x500 /D _WIN32_WINNT=0x500 /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"E:\RooF_Code\IcdCrcCalcTool\generated\IcdCrcCalcTool\DebugWin32\IcdCrcCalcTool.pch" /Fo"E:\RooF_Code\IcdCrcCalcTool\generated\IcdCrcCalcTool\DebugWin32\\" /Fd"E:\RooF_Code\IcdCrcCalcTool\generated\IcdCrcCalcTool\DebugWin32\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\tinyxml2 /I..\..\..\sqlite /I"..\..\..\protobuf-2.5.0\src" /I..\..\..\charconv /I..\..\..\boost_1_55_0_HeadersOnly /I..\..\..\zlibex2 /I"..\..\..\mysql-dev-5.6\include" /I"..\..\..\libcurl-7.26\include" /I..\..\..\slxcommon /I"..\..\..\rapidxml-1.13" /I"..\..\..\libevent-2.0.21-stable\include" /I..\..\..\ExpatDll\expat_core /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D WINVER=0x500 /D _WIN32_WINNT=0x500 /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\RooF_Code\IcdCrcCalcTool\generated\IcdCrcCalcTool\DebugWin32\\" /Fd"E:\RooF_Code\IcdCrcCalcTool\generated\IcdCrcCalcTool\DebugWin32\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\slxcommon\slxcommon.cpp IcdParser.cpp tool\DlgTemplate.cpp tool\InputBox.cpp
+         InputBox.cpp
+         DlgTemplate.cpp
+         IcdParser.cpp
+     1>e:\roof_code\icdcrccalctool\icdcrccalctool\icdparser.cpp(4): fatal error C1083: 无法打开包括文件:“rapidxml.hpp”: No such file or directory
+         slxcommon.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“..\..\..\slxcommon\slxcommon.cpp”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\RooF_Code\IcdCrcCalcTool\IcdCrcCalcTool\IcdCrcCalcTool.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.23
